@@ -10,7 +10,7 @@ description: Rust 実践課題の全工程を，初回提出時の点数，修�
 ## 入力
 
 - `docs/design.md`，`docs/testcase.md`
-- `review/design.md`，`review/implement.md`，`review/testcase.md`，`review/testcode.md`
+- `review/design.md`，`review/implement.md`，`review/testcase.md`，`review/testcode.md` と，各再レビュー版（`*.v2.md`，`*.v3.md` など）
 - 実装コード，テストコード，リソース，確認できる実行結果
 
 確認できない行動・結果は推測で補わず，「未確認」と記録する．
@@ -68,4 +68,4 @@ description: Rust 実践課題の全工程を，初回提出時の点数，修�
 ## 完了
 
 - AI は総括を提示後，人間に内容の確認・修正依頼を求める．
-- 人間が承認したときだけ，この課題の学習フローを完了とする．
+- 人間が承認したときだけ，この課題の学習フローを完了とする．AI は `summary.md` と課題一覧の完了更新のみを含むコミットを作成し，そのコミットに `<crate-name>-complete` 形式の注釈付き Git タグを付与する．無関係な変更を含めず，push は人間が明示的に依頼した場合だけ行う．

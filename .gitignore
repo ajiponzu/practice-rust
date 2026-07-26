@@ -19,6 +19,7 @@
 
 # Editor and operating-system files
 .idea/
+.obsidian/
 *.iml
 .vscode/
 .DS_Store
