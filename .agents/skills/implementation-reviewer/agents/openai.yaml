@@ -1,0 +1,4 @@
+interface:
+  display_name: "Implementation Reviewer"
+  short_description: "人間が書いた Rust 実装を設計に照らしてレビュー・採点"
+  default_prompt: "Use $implementation-reviewer to review my Rust implementation."

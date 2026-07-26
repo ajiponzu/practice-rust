@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summary Reviewer"
+  short_description: "Rust課題の全工程を根拠付きで総合評価し、次の学習へつなぐ"
+  default_prompt: "Use $summary-reviewer to summarize and grade my completed Rust practice challenge."

@@ -1,0 +1,28 @@
+# Rust build artifacts (workspace root and every practice crate)
+/target/
+**/target/
+
+# Keep Cargo.lock in version control for reproducible practice projects.
+# Do not add Cargo.lock here.
+
+# Rust backups and profiling / coverage output
+**/*.rs.bk
+**/*.profraw
+**/*.profdata
+**/coverage/
+**/tarpaulin-report.html
+
+# Local environment files (commit an explicit .env.example when needed)
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local session handover notes
+/sessions/

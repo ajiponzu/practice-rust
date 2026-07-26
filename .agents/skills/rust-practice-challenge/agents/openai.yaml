@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rust Practice Challenge"
+  short_description: "短い実践的な Rust 課題を段階的に出題・レビュー・採点"
+  default_prompt: "Use $rust-practice-challenge to give me a short practical Rust challenge."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Code Reviewer"
+  short_description: "人間が書いた Rust テストコードを設計に照らしてレビュー・採点"
+  default_prompt: "Use $test-code-reviewer to review my Rust test code."
