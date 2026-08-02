@@ -1,0 +1,4 @@
+interface:
+  display_name: "Requirements Reviewer"
+  short_description: "Rust課題の要求分析を根拠付きでレビューし次工程へつなぐ"
+  default_prompt: "Use -reviewer to review my Rust practice requirements analysis."

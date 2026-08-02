@@ -9,15 +9,15 @@ description: Rust 実践課題の全工程を，初回提出時の点数，修�
 
 ## 入力
 
-- `docs/design.md`，`docs/testcase.md`
-- `review/design.md`，`review/implement.md`，`review/testcase.md`，`review/testcode.md` と，各再レビュー版（`*.v2.md`，`*.v3.md` など）
+- `docs/requirements.md`，`docs/design.md`，`docs/testcase.md`
+- `review/requirements.md`，`review/design.md`，`review/testcase.md`，`review/spec.md`，`review/testcode.md`，`review/implement.md`，`review/refactor.md` と，各再レビュー版（`*.v2.md`，`*.v3.md` など）
 - 実装コード，テストコード，リソース，確認できる実行結果
 
 確認できない行動・結果は推測で補わず，「未確認」と記録する．
 
 ## まとめ
 
-1. テストコードレビューが承認された後，AI はプロジェクト直下に `summary.md` を作成または更新する．
+1. リファクタリングレビューが承認された後，AI はプロジェクト直下に `summary.md` を作成または更新する．
 2. 初回提出時の個別点は，対応するレビュー文書に記録された点数をそのまま転記する．
 3. 最終評価は，修正後の成果物とレビュー対応を基に別途評価する．初回点を単純に上書き・平均しない．
 4. 人間は事実誤認や補足を指摘できる。AI は根拠を確認して更新する．
@@ -31,10 +31,13 @@ description: Rust 実践課題の全工程を，初回提出時の点数，修�
 
 | 工程 | 初回提出時の点数 | 修正後の評価 | レビュー対応 | 根拠 |
 | --- | ---: | ---: | --- | --- |
+| 要求分析 |  |  |  |  |
 | 設計 |  |  |  |  |
-| 実装 |  |  |  |  |
 | テストケース設計 |  |  |  |  |
+| 設計・テストケース見直し |  |  |  |  |
 | テストコード実装 |  |  |  |  |
+| 実装 |  |  |  |  |
+| リファクタリング |  |  |  |  |
 
 ## 総合評価
 

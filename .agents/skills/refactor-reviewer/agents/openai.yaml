@@ -1,0 +1,4 @@
+interface:
+  display_name: "Refactor Reviewer"
+  short_description: "Rust課題のリファクタリングを根拠付きでレビューし次工程へつなぐ"
+  default_prompt: "Use -reviewer to review my Rust refactoring."

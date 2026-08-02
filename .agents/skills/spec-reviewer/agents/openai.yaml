@@ -1,0 +1,4 @@
+interface:
+  display_name: "Specification Reviewer"
+  short_description: "Rust課題の設計とテストケース整合性をレビュー・採点"
+  default_prompt: "Use -reviewer to review my Rust design and test cases together."
