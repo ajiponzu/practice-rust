@@ -6,8 +6,9 @@
 flowchart TD
     A[作業開始] --> B[作業種別と目標の選択]
     B --> C[課題・完了条件・採点基準]
-    C --> D[要求分析・レビュー]
-    D --> E[設計・レビュー]
+    C --> D[要求分析・初回レビュー]
+    D --> R[未決事項の合意・要求確定]
+    R --> E[設計・レビュー]
     E --> F[テストケース設計・レビュー]
     F --> G[設計・テストケース整合レビュー]
     G --> H[テストコード実装・レビュー]
@@ -30,6 +31,7 @@ flowchart TD
 | Markdown・図による説明 | `markdown-sample-generator` |
 | 設計のレビュー・採点 | `design-reviewer` |
 | 要求分析のレビュー・採点 | `requirements-reviewer` |
+| 未決事項の合意・要求確定 | `requirements-reviewer` |
 | テスト設計のレビュー・採点 | `test-design-reviewer` |
 | 設計・テストケース整合のレビュー・採点 | `spec-reviewer` |
 | 実装のレビュー・採点 | `implementation-reviewer` |

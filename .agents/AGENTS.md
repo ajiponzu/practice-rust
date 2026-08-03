@@ -27,14 +27,15 @@
 通常の Rust 学習では，`rust-practice-challenge` を中心のオーケストレーターとして使う．
 この Skill が短い実践課題を出題し，次の順序で人間主導の学習を進める．
 
-1. 人間による要求分析 → `requirements-reviewer` による要求分析レビュー
-2. 人間による設計 → `design-reviewer` による設計レビュー
-3. 人間によるテストケース設計 → `test-design-reviewer` によるテスト設計レビュー
-4. 人間による設計・テストケース見直し → `spec-reviewer` による整合レビュー
-5. 人間によるテストコード実装 → `test-code-reviewer` によるテストコードレビュー
-6. 人間による実装 → `implementation-reviewer` による実装レビュー
-7. 人間によるリファクタリング → `refactor-reviewer` によるリファクタリングレビュー
-8. `summary-reviewer` による全工程の総合評価 → 人間の承認で完了
+1. 人間による要求分析 → `requirements-reviewer` による要求分析レビュー・初回採点
+2. 未決事項の合意 → 要求定義書への反映 → `requirements-reviewer` による最終承認
+3. 人間による設計 → `design-reviewer` による設計レビュー
+4. 人間によるテストケース設計 → `test-design-reviewer` によるテスト設計レビュー
+5. 人間による設計・テストケース見直し → `spec-reviewer` による整合レビュー
+6. 人間によるテストコード実装 → `test-code-reviewer` によるテストコードレビュー
+7. 人間による実装 → `implementation-reviewer` による実装レビュー
+8. 人間によるリファクタリング → `refactor-reviewer` によるリファクタリングレビュー
+9. `summary-reviewer` による全工程の総合評価 → 人間の承認で完了
 
 各 Skill は単独でも利用できるが，通常の実践課題では `rust-practice-challenge` の段階として利用する．
 
